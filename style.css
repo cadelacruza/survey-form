@@ -1,0 +1,72 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+  background: #0e153a;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
+
+.main h1, #description{
+  text-align: center;
+  margin-top: 20px;
+}
+
+.main{
+  max-width: 60%;
+  margin: 0 auto;
+  background: #0e153a;
+}
+
+.main #survey-form {
+  margin-top: 50px;
+  background:#3d5af1;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.main #survey-form .form-field{
+  line-height: 3;
+}
+.main #survey-form .form-field input, select{
+  display: block;
+  width: 100%;
+  border-radius: 5px;
+}
+
+
+.main #survey-form p {
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+.main #survey-form .radio-btn{
+  margin-bottom: 15px;
+}
+
+.main select{
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.main .space{
+  margin-bottom: 18px;
+}
+
+.main textarea{
+  width: 100%;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.main #submit {
+  width: 100%;
+  border-radius: 6px;
+  color: white;
+  background: #22d1ee;
+  border: none;
+  height: 30px;
+}
